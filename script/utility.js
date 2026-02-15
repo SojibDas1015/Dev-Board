@@ -35,4 +35,9 @@ function setAvrything(idOne, idTwo, idTree, idFour, idFive, idSix, idSeven, idEi
     titleAdd.classList.add('rounded-xl')
     titleAdd.innerText = `You have Complete The Task ${titleText} at ${newTime}`
     activityLogAdd.appendChild(titleAdd);
+
+    if(taskAssignedValue === 1)
+    {
+        alert('Congrats!!! You have Completed all the Current Task');
+    }
 }
